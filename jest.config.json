@@ -1,0 +1,15 @@
+{
+	"preset": "jest-preset-angular",
+	"setupFilesAfterEnv": ["<rootDir>/setup-jest.ts"],
+	"coverageProvider": "v8",
+	"coverageReporters": ["text", "json", "html"],
+	"coverageDirectory": "tests/coverage",
+	"collectCoverage": true,
+	"collectCoverageFrom": ["src/**/*.ts"],
+	"moduleNameMapper": {
+		"^@src/(.*)$": "<rootDir>/src/$1",
+		"^@shared/(.*)$": "<rootDir>/src/shared/$1",
+		"^@tests/(.*)$": "<rootDir>/tests/$1"
+	},
+	"coveragePathIgnorePatterns": ["<rootDir>/src/main.ts"]
+}
