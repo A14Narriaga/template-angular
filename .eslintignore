@@ -1,4 +1,8 @@
+.angular/
+.github/
+.husky/
 dist/
+docs/
 node_modules/
-test/coverage/
+tests/coverage/
 src/main.ts

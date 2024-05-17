@@ -1,8 +1,10 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="https://angular.dev" target="blank">
+    <img src="./public/images/angular.png" width="200" alt="Angular Logo" />
+  </a>
 </p>
 
-<h1 align="center">✨ Angular Template ✨</h1>
+<h1 align="center">✨ Angular Template (BETA) ✨</h1>
 
 <p align="center">Template based on Angular and GraphQL</p>
 
