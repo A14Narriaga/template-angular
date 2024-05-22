@@ -9,6 +9,7 @@
 		"source.fixAll.eslint": "always",
 		"source.fixAll.format": "always"
 	},
+	"htmlhint.options": { "doctype-first": false },
 	"[dockerfile]": {
 		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
 	},
