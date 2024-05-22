@@ -1,0 +1,16 @@
+<div
+	*ngIf="$isOpen | async"
+	class="modal-overlay"
+	(click)="canClose ? handleOverlayClick($event) : null">
+	<div class="modal-content">
+		<div class="text-right">
+			<button
+				*ngIf="canClose"
+				(click)="close()"
+				class="close-button">
+				&times;
+			</button>
+		</div>
+		<ng-content></ng-content>
+	</div>
+</div>
