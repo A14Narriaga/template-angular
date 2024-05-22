@@ -1,3 +1,4 @@
 export * from "./app.component"
-export * from "./app.module"
-export * from "./app-routing.module"
+export * from "./app.config"
+export * from "./app.config.server"
+export * from "./app.routes"

@@ -11,5 +11,11 @@
 		"^@shared/(.*)$": "<rootDir>/src/shared/$1",
 		"^@tests/(.*)$": "<rootDir>/tests/$1"
 	},
-	"coveragePathIgnorePatterns": ["<rootDir>/src/main.ts"]
+	"coveragePathIgnorePatterns": [
+		"<rootDir>/src/main.ts",
+		"<rootDir>/src/main.server.ts",
+		"<rootDir>/src/app/app.config.server.ts",
+		"<rootDir>/src/app/app.config.ts",
+		"<rootDir>/src/.*index.ts$"
+	]
 }
