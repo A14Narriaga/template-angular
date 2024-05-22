@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"scripts": {
 		"dev": "concurrently --names 'app,test' 'yarn start:dev' 'yarn test:dev'",
-		"start": "ng serve",
+		"start": "http-server dist/template-angular/browser",
 		"start:dev": "ng serve -o",
 		"test": "jest --coverage",
 		"test:dev": "jest --watch",
