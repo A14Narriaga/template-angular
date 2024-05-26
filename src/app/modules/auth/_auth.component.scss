@@ -1,0 +1,19 @@
+:host {
+  @apply
+    h-screen w-screen
+    flex justify-center items-center
+    bg-gradient-to-r from-cyan-500 to-blue-500;
+}
+
+.wrapper {
+  @apply
+    flex flex-col justify-center items-center gap-2
+    max-w-80
+    p-5
+    bg-white
+    rounded-lg
+    shadow-xl;
+  p {
+    @apply text-2xl;
+  }
+}

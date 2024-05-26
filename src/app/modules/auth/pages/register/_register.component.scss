@@ -1,0 +1,7 @@
+:host {
+  @apply
+    flex justify-center flex-col gap-2;
+  atm-button {
+    @apply mt-2
+  }
+}

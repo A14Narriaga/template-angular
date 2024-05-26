@@ -1,8 +1,8 @@
 {
 	"compileOnSave": false,
 	"compilerOptions": {
-		"baseUrl": ".",
-		"outDir": "./dist/out-tsc",
+		"baseUrl": "./",
+		"outDir": "dist/out-tsc",
 		"strict": true,
 		"noImplicitOverride": true,
 		"noPropertyAccessFromIndexSignature": true,
@@ -20,8 +20,8 @@
 		"useDefineForClassFields": false,
 		"lib": ["ES2022", "dom"],
 		"paths": {
-			"@src/*": ["src/*"],
-			"@shared/*": ["src/shared/*"],
+			"@app/*": ["src/app/*"],
+			"@shared/*": ["src/app/shared/*"],
 			"@tests/*": ["tests/*"]
 		},
 		"types": ["jest"]

@@ -1,0 +1,9 @@
+button {
+  @apply
+    bg-gradient-to-r from-cyan-500 to-blue-500
+    text-white
+    rounded-lg
+    w-full
+    flex justify-center items-center
+    p-2
+}

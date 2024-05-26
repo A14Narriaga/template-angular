@@ -1,7 +1,7 @@
 import { CommonModule } from "@angular/common"
 import { Component, ElementRef, Input } from "@angular/core"
 
-import { ModalService } from "@src/app/services"
+import { ModalService } from "@app/services"
 
 @Component({
 	standalone: true,
