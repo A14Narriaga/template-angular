@@ -1,1 +1,2 @@
-export * from "./modal/modal.service"
+export * from "./modal"
+export * from "./theme"

@@ -1,27 +1,10 @@
-import { CommonModule } from "@angular/common"
 import { NgModule } from "@angular/core"
 
-import {
-	AtmButtonComponent,
-	AtmInputComponent,
-	AtmLinkComponent,
-	AtmModalComponent
-} from "./components"
+import { ComponentsModule } from "./components/components.module"
 
 @NgModule({
 	declarations: [],
-	imports: [
-		CommonModule,
-		AtmButtonComponent,
-		AtmInputComponent,
-		AtmModalComponent,
-		AtmLinkComponent
-	],
-	exports: [
-		AtmButtonComponent,
-		AtmInputComponent,
-		AtmModalComponent,
-		AtmLinkComponent
-	]
+	imports: [ComponentsModule],
+	exports: [ComponentsModule]
 })
 export class SharedModule {}
