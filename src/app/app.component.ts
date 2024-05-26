@@ -2,12 +2,12 @@ import { Component } from "@angular/core"
 import { RouterOutlet } from "@angular/router"
 
 import { ModalService } from "./services"
-import { SharedModule } from "./shared"
+import { AtmButtonComponent, AtmModalComponent } from "./shared/components"
 
 @Component({
 	selector: "app-root",
 	standalone: true,
-	imports: [RouterOutlet, SharedModule],
+	imports: [RouterOutlet, AtmButtonComponent, AtmModalComponent],
 	templateUrl: "./app.component.html",
 	styleUrl: "./app.component.scss"
 })

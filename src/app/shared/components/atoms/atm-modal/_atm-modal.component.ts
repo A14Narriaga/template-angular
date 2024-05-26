@@ -1,13 +1,16 @@
+import { CommonModule } from "@angular/common"
 import { Component, ElementRef, Input } from "@angular/core"
 
 import { ModalService } from "@src/app/services"
 
 @Component({
+	standalone: true,
+	imports: [CommonModule],
 	selector: "atm-modal",
-	templateUrl: "./modal.component.html",
-	styleUrl: "./modal.component.scss"
+	templateUrl: "./_atm-modal.component.html",
+	styleUrl: "./_atm-modal.component.scss"
 })
-export class ModalComponent {
+export class AtmModalComponent {
 	@Input() id!: string
 	@Input() canClose: boolean = true
 
