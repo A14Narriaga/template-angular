@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core"
 
 import { AtmButtonComponent } from "./atm-button"
+import { AtmIconComponent } from "./atm-icon"
 import { AtmInputComponent } from "./atm-input"
 import { AtmLinkComponent } from "./atm-link"
 import { AtmModalComponent } from "./atm-modal"
@@ -10,13 +11,15 @@ import { AtmModalComponent } from "./atm-modal"
 		AtmButtonComponent,
 		AtmInputComponent,
 		AtmModalComponent,
-		AtmLinkComponent
+		AtmLinkComponent,
+		AtmIconComponent
 	],
 	exports: [
 		AtmButtonComponent,
 		AtmInputComponent,
 		AtmModalComponent,
-		AtmLinkComponent
+		AtmLinkComponent,
+		AtmIconComponent
 	]
 })
 export class AtomsModule {}

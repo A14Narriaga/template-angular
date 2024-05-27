@@ -2,10 +2,12 @@ import { Component } from "@angular/core"
 
 import { ThemeService } from "@app/services"
 
+import { AtomsModule } from "../../atoms"
+
 @Component({
 	selector: "mol-header",
 	standalone: true,
-	imports: [],
+	imports: [AtomsModule],
 	templateUrl: "./mol-header.component.html",
 	styleUrl: "./mol-header.component.scss"
 })

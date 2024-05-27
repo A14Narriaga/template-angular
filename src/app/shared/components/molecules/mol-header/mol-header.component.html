@@ -1,4 +1,8 @@
 <header>
-	<div>Header</div>
-	<p (click)="themeService.toggleTheme()">Cambiar thema</p>
+	<p>Header</p>
+	<div class="actions">
+		<atm-icon
+			[name]="themeService.get === 'dark' ? 'sun' : 'moon'"
+			(click)="themeService.toggleTheme()" />
+	</div>
 </header>

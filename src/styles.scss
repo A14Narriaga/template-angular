@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --card: 70, 70, 70;
+  --primary: 6, 182, 212;
+  --secondary: 59, 130, 246;
+  --text-primary: 255, 255, 255;
+  --text-card: 0, 0, 0;
+}
+
+.light {
+  --card: 255, 255, 255;
+  --primary: 6, 182, 212;
+  --secondary: 59, 130, 246;
+  --text-primary: 255, 255, 255;
+  --text-card: 0, 0, 0;
+}

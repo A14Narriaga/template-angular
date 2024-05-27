@@ -1,8 +1,8 @@
 button {
   @apply
-    bg-gradient-to-r from-cyan-500 to-blue-500
+    bg-gradient-to-r from-primary to-secondary
     hover:from-green-500 hover:to-cyan-500
-    text-white
+    text-textPrimary
     rounded-lg
     w-full
     flex justify-center items-center

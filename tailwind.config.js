@@ -3,7 +3,15 @@
 module.exports = {
 	content: ["./src/**/*.{html,ts}"],
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				card: "rgba(var(--card))",
+				primary: "rgba(var(--primary))",
+				secondary: "rgba(var(--secondary))",
+				textPrimary: "rgba(var(--text-primary))",
+				textCard: "rgba(var(--text-card))"
+			}
+		}
 	},
 	plugins: []
 }
